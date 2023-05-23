@@ -5,6 +5,7 @@ add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
 git clone https://gitlab.freedesktop.org/rncbc/qpwgraph -b v0.4.2
+rm -rfv ./qpwgraph/debian
 cp -rvf ./debian ./qpwgraph/
 cd ./qpwgraph
 
